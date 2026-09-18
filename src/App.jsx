@@ -1,16 +1,17 @@
+import React from "react";
 import NavBar from "./components/NavBar";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
-function App() {
-  const data = {
-    name: "Zaky Hossain",
-    age: 27,
-    district: "Bogura",
-  };
+const App = () => {
+  return (
+    <>
+      <NavBar />
+      <Banner />
 
-  return;
-  <>
-    <NavBar />
-  </>;
-}
+      <Footer />
+    </>
+  );
+};
 
 export default App;
